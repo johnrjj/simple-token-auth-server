@@ -12,13 +12,14 @@ npm lint and npm test are also available, using eslint and mocha respectively
 
 ##API endpoints
 
+###auth
 /auth/register - register an account
 
 /auth/token - get new access token from refresh token
 
 /auth/login - login with a username and password and get an access token and (an optional) refresh token
 
-
+###api
 /api/v1/me - returns user from token (requires token)
 
 /api/v1/protected - sample route requiring a token (requires token)
