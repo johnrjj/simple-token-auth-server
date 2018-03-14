@@ -1,6 +1,6 @@
 # simple-token-auth-server
 
-##To run:
+## To run:
 
 Make sure mongo instance is running
 
@@ -10,16 +10,16 @@ npm start
 
 npm lint and npm test are also available, using eslint and mocha respectively
 
-##API endpoints
+## API endpoints
 
-###auth
+### Auth
 /auth/register - register an account
 
 /auth/token - get new access token from refresh token
 
 /auth/login - login with a username and password and get an access token and (an optional) refresh token
 
-###api
+### API
 /api/v1/me - returns user from token (requires token)
 
 /api/v1/protected - sample route requiring a token (requires token)
